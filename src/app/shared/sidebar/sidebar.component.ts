@@ -14,4 +14,7 @@ constructor(private gifser:GifsService){
 get historial(){
   return this.gifser.historial;
 }
+buscar(termino:string){
+  this.gifser.buscargift(termino);
+}
 }
