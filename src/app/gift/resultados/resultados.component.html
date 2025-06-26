@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-4 col-sm-6 animate__animated animate__fadeIn"  *ngFor="let gif of resultados">
         <div class="card" style="width: 18rem;">
-            <img [src]="gif.images.downsized_medium.url" class="card-img-top" alt="gif.title">
+            <img [src]="gif.images.downsized_medium.url" class="card-img-top" alt="gif.title" (click)="modal()" loading="lazy">
             <div class="card-body">
               <p class="card-text"> {{gif.title | titlecase}} </p>
             </div>

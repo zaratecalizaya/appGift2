@@ -15,5 +15,10 @@ constructor( private giftser:GifsService){
 get resultados(){
   return this.giftser.resultados;
 }
+modal(){
+  
+const resultad:string="";
+
+}
 
 }
