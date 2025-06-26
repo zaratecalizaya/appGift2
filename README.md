@@ -1,27 +1,24 @@
-# GiftApp
+🎁 GiftApp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.6.
+Aplicación web desarrollada con **Angular** que permite buscar imágenes GIF utilizando la API de Giphy. Este proyecto fue realizado como parte del **Curso Avanzado de Angular** de [Fernando Herrera](https://www.udemy.com/user/fernandoher85/).
 
-## Development server
+## 🚀 Funcionalidades principales
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 🔍 Búsqueda dinámica de GIFs con resultados en tiempo real.
+- 💾 Historial de búsquedas almacenado en LocalStorage.
+- 📱 Interfaz responsiva y moderna.
+- 📥 Sugerencias de búsqueda con autocompletado.
 
-## Code scaffolding
+## 🛠️ Tecnologías utilizadas
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- Angular v16+
+- TypeScript
+- RxJS
+- HTML5 + SCSS
+- API Giphy
+  
+###lecciones aprendidas
+- Buenas prácticas de arquitectura en Angular.
+-Implementación de servicios y consumo de APIs externas.
+-Manejo de estados, observables y suscripciones con RxJS.
+-Uso de LocalStorage para persistencia de datos.
